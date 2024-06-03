@@ -1,0 +1,122 @@
+body {
+    text-size-adjust: 100%;
+    overflow-x: hidden;
+    background-color: #121213;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-bar {
+    background-color: #AF8260;
+    color: black;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    padding: 3px 60px;
+    
+    }
+    @media (max-width: 991px) {
+    .nav-bar {
+      max-width: 100%;
+      padding: 0 20px;
+    }
+    
+    }
+    
+    .nav-bar2 {
+    background-color: #221e1e;
+      color: black;
+      display: flex;
+      width: 100%;
+      height: 54px;
+      align-items: center;
+      padding: 1px 60px;
+    }
+  
+  .logo {
+  font: 20px Inter, sans-serif;
+  letter-spacing: 3px;
+  }
+  
+  .right-nav {
+    margin-left: auto; /* Ta właściwość przesunie .right-nav na końcu menu */
+    display: flex;
+    gap: 30px;
+  }
+  
+  .right-nav2 {
+    margin-left: auto; /* Ta właściwość przesunie .right-nav na końcu menu */
+    position: right;
+    gap: 0px;
+  }
+  
+  .left-nav {
+    margin-left: auto; /* Ta właściwość przesunie .right-nav na końcu menu */
+    display: left;
+    gap: px;
+  }
+  .container {
+    max-width: 420px !important;
+    margin: 50px auto !important;
+    padding: 20px !important; 
+    background-color: #fff;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="email"],
+  input[type="password"],
+  input[type="text"] {
+    width: 100% !important;
+    padding: 10px !important;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  button[type="submit"], button[type="href"]  {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 10%;
+    background-color: #803D3B;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:#E4C59E  !important;
+  }
+  button[type="submit"]:hover {
+    background-color: #803D3B;
+    color:#E4C59E  !important;
+  }  
+  .hover-button-fix:hover {
+    background-color: #643130;
+  }
+
+  .News-button{
+    background: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 15px;
+    margin: 0;
+    color: #803D3B !important;
+  }
+  
+  .Left-button-Panel{
+    background: none;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 23px;
+    letter-spacing: 0.5px;
+    border: none;
+    padding: 15px;
+    margin: 0;
+    color: #803D3B !important;
+  }
